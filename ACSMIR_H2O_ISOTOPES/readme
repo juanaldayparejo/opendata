@@ -1,0 +1,13 @@
+The data products included in this repository are produced using solar occultation observations of the Martian atmosphere
+from the mid-infrared channel of the Atmospheric Chemistry Suite (ACS MIR) onboard the ExoMars Trace Gas Orbiter.
+These products include vertical profiles of pressure, temperature, number density, H2O abundance and the D/H and (18O)/(16O) 
+isotopic ratios in water.
+
+The different files in this repository are:
+
+	- DATA_PRODUCTS_v2/ :: Folder containing the files with the data products.
+	- ACSMIR_H2O_Database.txt :: File including the observational parameters of each solar occultation
+	- readfiles.py :: Set of python functions to read the database and the individual files with the data products.
+	- read_all.py :: Python routine to read all available observations and store them in arrays.
+
+Last updated (19/02/2021) by Juan Alday
